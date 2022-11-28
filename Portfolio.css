@@ -1,0 +1,107 @@
+h1 {
+  font-family: ariel, sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: ariel, sans-serif;
+}
+
+#link {
+  font-family: ariel, sans-serif;
+  margin-left: 30px;
+}
+
+#port {
+  font-family: ariel, sans-serif;
+  text-align: center;
+  margin-top: -10px;
+}
+
+#spacer {
+  margin-top: 50px;
+}
+
+.sidebar {
+  margin-top: 60px;
+}
+
+.pages {
+  font-family: ariel, sans-serif;
+  list-style: none;
+  margin-left: -10px;
+}
+
+.dropdown {
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #add8e6;
+}
+
+.project-container {
+  display: grid;
+  grid-template-areas:
+  "sidebar project1 project2";
+  overflow: hidden;
+}
+
+.project1 {
+  margin-top: 55px;
+}
+
+#project1_id {
+  height: 50%;
+}
+
+.project2 {
+  margin-top: 55px;
+}
+
+#proj-spec {
+  margin-left: 25px;
+}
+
+.main-portion {
+  display: grid;
+  grid-template-areas:
+  "sidebar bio-container headshot-container";
+}
+
+.bio-container {
+  margin-left: 10%;
+  margin-top: 60px;
+  margin-right: 40px;
+}
+
+#headshot {
+  width: 170px;
+  height: 290px;
+  margin-top: 90px;
+  margin-right: 30px;
+  border-radius: 30%;
+}
+
+hr {
+  position: absolute;
+  bottom: 40px;
+  left: 0px;
+  border-color: lightgray;
+}
+
+.bottom-contact {
+  position: absolute;
+  bottom: 15px;
+  left: 30%;
+  right: 30%;
+  display: grid;
+  grid-template-areas:
+  "email phone linkedin";
+  gap: 10%;
+}
